@@ -69,7 +69,7 @@ class Todo(models.Model):
         app_label = 'django_app'
         ordering = ('id',)
         verbose_name = 'Todo'
-        verbose_name_plural = 'Todos'
+        verbose_name_plural = 'Todoss'
 
     def __str__(self):
         return f"Todo: {self.title} {self.description[:30]} [{self.pk}]"
